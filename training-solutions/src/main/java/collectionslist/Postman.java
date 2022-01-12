@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Postman {
 
-    List<String> addresses=new LinkedList<>();
+    private List<String> addresses=new LinkedList<>();
 
     public void addAddress(String address){
         addresses.add(address);
