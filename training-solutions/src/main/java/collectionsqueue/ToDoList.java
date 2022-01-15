@@ -7,7 +7,7 @@ import java.util.List;
 
 public class ToDoList {
 
-    private List<ToDo> todos = new ArrayList<>();
+    private List<ToDo> todos;
 
     public ToDoList(List<ToDo> todos) {
         this.todos = todos;
