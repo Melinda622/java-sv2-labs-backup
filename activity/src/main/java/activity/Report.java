@@ -2,19 +2,19 @@ package activity;
 
 public class Report {
 
-    private ActivityType activityType;
-    private double distance;
+    private final ActivityType activityType;
+    private final double distance;
 
     public Report(ActivityType activityType, double distance) {
         this.activityType = activityType;
         this.distance = distance;
     }
 
-   public double getDistance(){
+    public double getDistance() {
         return distance;
-   }
+    }
 
-   public ActivityType getActivityType(){
+    public ActivityType getActivityType() {
         return activityType;
-   }
+    }
 }
